@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,22 +31,22 @@ const Header = () => {
           </div>
           <ul className="nav-left">
             <li>
-              <a href="/ever-joy">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/ever-joy/about">About Us</a>
+              <Link to="/about">About Us</Link>
             </li>
             <li>
-              <a href="/ever-joy/competition">Competition</a>
+              <Link to="/competition">Competition</Link>
             </li>
             <li>
-              <a href="/ever-joy/news-gallery">News & Gallery</a>
+              <Link to="/news-gallery">News & Gallery</Link>
             </li>
             <li>
-              <a href="/ever-joy/partners">Partners</a>
+              <Link to="/partners">Partners</Link>
             </li>
             <li>
-              <a href="/ever-joy/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
