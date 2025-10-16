@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "../../assets/logo.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,22 +31,70 @@ const Header = () => {
           </div>
           <ul className="nav-left">
             <li>
-              <Link to="/">Home</Link>
+              <NavLink
+                to="/"
+                end
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <NavLink
+                end
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to="/about"
+              >
+                About Us
+              </NavLink>
             </li>
             <li>
-              <Link to="/competition">Competition</Link>
+              <NavLink
+                end
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to="/competition"
+              >
+                Competition
+              </NavLink>
             </li>
             <li>
-              <Link to="/news-gallery">News & Gallery</Link>
+              <NavLink
+                end
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to="/news-gallery"
+              >
+                News & Gallery
+              </NavLink>
             </li>
             <li>
-              <Link to="/partners">Partners</Link>
+              <NavLink
+                end
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to="/partners"
+              >
+                Partners
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink
+                end
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to="/contact"
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>

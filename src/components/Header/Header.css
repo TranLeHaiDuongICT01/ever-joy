@@ -51,18 +51,6 @@
   justify-content: space-evenly;
 }
 
-.nav-left a {
-  text-decoration: none;
-  color: black;
-  font-weight: 400;
-  transition: color 0.2s;
-  font-size: 16px;
-}
-
-.nav-left a:hover {
-  color: white;
-}
-
 /* Center logo */
 
 .logo img {
@@ -254,4 +242,19 @@
   .hero-content h1 {
     font-size: 1.6rem;
   }
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #ff4500; /* Active color */
+  font-weight: 500;
+  border-bottom: 2px solid #ff4500; /* Optional underline effect */
 }
