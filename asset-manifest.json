@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/road-to-essen/static/css/main.5b4c69ec.css",
-    "main.js": "/road-to-essen/static/js/main.68484722.js",
+    "main.js": "/road-to-essen/static/js/main.fc76798c.js",
     "static/js/453.e3af00a2.chunk.js": "/road-to-essen/static/js/453.e3af00a2.chunk.js",
     "static/media/essen-backdrop.png": "/road-to-essen/static/media/essen-backdrop.ca0dd9d50c7a79de518f.png",
     "index.html": "/road-to-essen/index.html",
     "main.5b4c69ec.css.map": "/road-to-essen/static/css/main.5b4c69ec.css.map",
-    "main.68484722.js.map": "/road-to-essen/static/js/main.68484722.js.map",
+    "main.fc76798c.js.map": "/road-to-essen/static/js/main.fc76798c.js.map",
     "453.e3af00a2.chunk.js.map": "/road-to-essen/static/js/453.e3af00a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b4c69ec.css",
-    "static/js/main.68484722.js"
+    "static/js/main.fc76798c.js"
   ]
 }
