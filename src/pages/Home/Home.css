@@ -1,0 +1,12 @@
+.home {
+  position: relative;
+}
+
+.essen-backdrop-container {
+  position: relative;
+}
+
+.essen-backdrop {
+  width: 100%;
+  margin-top: 60px;
+}
