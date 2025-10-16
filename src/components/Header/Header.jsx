@@ -30,22 +30,22 @@ const Header = () => {
           </div>
           <ul className="nav-left">
             <li>
-              <a href="/">Home</a>
+              <a href="/ever-joy">Home</a>
             </li>
             <li>
-              <a href="/about">About Us</a>
+              <a href="/ever-joy/about">About Us</a>
             </li>
             <li>
-              <a href="/competition">Competition</a>
+              <a href="/ever-joy/competition">Competition</a>
             </li>
             <li>
-              <a href="/news">News & Gallery</a>
+              <a href="/ever-joy/news-gallery">News & Gallery</a>
             </li>
             <li>
-              <a href="/partners">Partners</a>
+              <a href="/ever-joy/partners">Partners</a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a href="/ever-joy/contact">Contact</a>
             </li>
           </ul>
         </div>

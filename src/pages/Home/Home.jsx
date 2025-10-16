@@ -13,7 +13,6 @@ const Home = () => {
       <div className="container">
         <div className="left-corner"></div>
         <div className="hero-container">
-          {/* Main Hero Section */}
           <section className="hero-content">
             <h1>Highlight Games</h1>
             <div className="highlight-games">

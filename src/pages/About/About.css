@@ -1,0 +1,124 @@
+.about-page {
+  position: relative;
+}
+
+.about-content {
+  background-color: #d9d9d9;
+  padding: 20px 0 140px 0;
+  margin: 30px 60px;
+}
+
+.about-content h1 {
+  text-transform: uppercase;
+  font-family: "Paytone One", sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.about-section {
+  display: flex;
+  gap: 80px;
+  padding: 0 40px;
+}
+
+.about-section p {
+  text-align: justify;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+.about-section img {
+  height: 70px;
+}
+
+.about-section h1 {
+  color: #ff2e00;
+  font-family: "anton", sans-serif;
+}
+
+.highlight-section img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 1277px;
+  margin-bottom: 28px;
+}
+
+.banner-shoppe img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.brand-collaboration-projects h1 {
+  font-family: "anton", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 42px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+  -webkit-text-stroke: 1px black;
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+.project-image-1 {
+  margin-bottom: 48px;
+  width: 100%;
+  max-width: 1229px;
+}
+
+.project-image-2 {
+  width: 100%;
+  max-width: 1229px;
+}
+
+.partners-and-sponsors {
+  background-color: #8e8e8e;
+  padding-top: 24px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.partners-and-sponsors h1 {
+  font-family: "anton", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 40px;
+}
+
+.partners-and-sponsors img {
+  max-width: 1000px;
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .about-section h1 {
+    font-size: 32px;
+  }
+
+  .about-content {
+    background-color: #d9d9d9;
+    padding: 20px 0 140px 0;
+    margin: 30px 20px;
+  }
+
+  .brand-collaboration-projects h1 {
+    font-size: 24px;
+  }
+
+  .partners-and-sponsors h1 {
+    font-size: 24px;
+  }
+
+  .partners-and-sponsors {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
