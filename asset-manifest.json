@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ever-joy/static/css/main.aadaef46.css",
-    "main.js": "/ever-joy/static/js/main.06a231cd.js",
+    "main.css": "/ever-joy/static/css/main.f71884fc.css",
+    "main.js": "/ever-joy/static/js/main.1ceb44a2.js",
     "static/js/453.f645613d.chunk.js": "/ever-joy/static/js/453.f645613d.chunk.js",
     "static/media/essen-backdrop.png": "/ever-joy/static/media/essen-backdrop.ca0dd9d50c7a79de518f.png",
     "static/media/banner-shoppe.png": "/ever-joy/static/media/banner-shoppe.02a1e34883569fd38022.png",
@@ -10,12 +10,12 @@
     "static/media/partners-sponsors.png": "/ever-joy/static/media/partners-sponsors.37dd79039edf086b44e6.png",
     "static/media/highlight-section.png": "/ever-joy/static/media/highlight-section.59946721ba51eaaf3689.png",
     "index.html": "/ever-joy/index.html",
-    "main.aadaef46.css.map": "/ever-joy/static/css/main.aadaef46.css.map",
-    "main.06a231cd.js.map": "/ever-joy/static/js/main.06a231cd.js.map",
+    "main.f71884fc.css.map": "/ever-joy/static/css/main.f71884fc.css.map",
+    "main.1ceb44a2.js.map": "/ever-joy/static/js/main.1ceb44a2.js.map",
     "453.f645613d.chunk.js.map": "/ever-joy/static/js/453.f645613d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aadaef46.css",
-    "static/js/main.06a231cd.js"
+    "static/css/main.f71884fc.css",
+    "static/js/main.1ceb44a2.js"
   ]
 }
