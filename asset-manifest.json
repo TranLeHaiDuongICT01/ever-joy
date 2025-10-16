@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/road-to-essen/static/css/main.5b4c69ec.css",
-    "main.js": "/road-to-essen/static/js/main.fc76798c.js",
-    "static/js/453.e3af00a2.chunk.js": "/road-to-essen/static/js/453.e3af00a2.chunk.js",
-    "static/media/essen-backdrop.png": "/road-to-essen/static/media/essen-backdrop.ca0dd9d50c7a79de518f.png",
-    "index.html": "/road-to-essen/index.html",
-    "main.5b4c69ec.css.map": "/road-to-essen/static/css/main.5b4c69ec.css.map",
-    "main.fc76798c.js.map": "/road-to-essen/static/js/main.fc76798c.js.map",
-    "453.e3af00a2.chunk.js.map": "/road-to-essen/static/js/453.e3af00a2.chunk.js.map"
+    "main.css": "/ever-joy/static/css/main.5b4c69ec.css",
+    "main.js": "/ever-joy/static/js/main.b2b3fb39.js",
+    "static/js/453.f645613d.chunk.js": "/ever-joy/static/js/453.f645613d.chunk.js",
+    "static/media/essen-backdrop.png": "/ever-joy/static/media/essen-backdrop.ca0dd9d50c7a79de518f.png",
+    "index.html": "/ever-joy/index.html",
+    "main.5b4c69ec.css.map": "/ever-joy/static/css/main.5b4c69ec.css.map",
+    "main.b2b3fb39.js.map": "/ever-joy/static/js/main.b2b3fb39.js.map",
+    "453.f645613d.chunk.js.map": "/ever-joy/static/js/453.f645613d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b4c69ec.css",
-    "static/js/main.fc76798c.js"
+    "static/js/main.b2b3fb39.js"
   ]
 }
