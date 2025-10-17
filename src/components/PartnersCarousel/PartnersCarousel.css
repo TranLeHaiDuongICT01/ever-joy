@@ -2,9 +2,9 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background: #aeaeae;
-  padding: 20px 0;
+  padding: 20px 30px;
   overflow: hidden;
 }
 
@@ -14,6 +14,7 @@
   width: 80%;
   overflow: hidden;
   height: 100%;
+  max-width: 900px;
 }
 
 .slide {
@@ -43,7 +44,7 @@
   height: 55px;
 }
 
-.arrow {
+.partner-arrow {
   background: none;
   border: none;
   color: #000;
@@ -53,15 +54,11 @@
   transition: color 0.2s;
 }
 
-.arrow:hover {
-  color: #333;
-}
-
-.arrow.left {
+.partner-arrow-icon.left {
   margin-right: 10px;
 }
 
-.arrow.right {
+.partner-arrow-icon.right {
   margin-left: 10px;
 }
 
@@ -72,7 +69,7 @@
   }
 }
 
-.arrow-icon {
+.partner-arrow-icon {
   width: 15px;
 }
 

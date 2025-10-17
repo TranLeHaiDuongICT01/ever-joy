@@ -13,8 +13,8 @@ const logos = [logo1, logo2, logo3];
 const PartnersCarousel = () => {
   return (
     <div className="partners-section">
-      <button className="arrow left">
-        <img src={leftIcon} className="arrow-icon" alt="Left Arrow" />
+      <button className="partner-arrow left">
+        <img src={leftIcon} className="partner-arrow-icon" alt="Left Arrow" />
       </button>
 
       <div className="partners-slider">
@@ -25,8 +25,8 @@ const PartnersCarousel = () => {
         ))}
       </div>
 
-      <button className="arrow right">
-        <img src={rightIcon} className="arrow-icon" alt="Right Arrow" />
+      <button className="partner-arrow right">
+        <img src={rightIcon} className="partner-arrow-icon" alt="Right Arrow" />
       </button>
     </div>
   );

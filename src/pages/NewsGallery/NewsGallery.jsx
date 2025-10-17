@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
+import Header from "../../components/Header/Header";
+import NewsSection from "../../components/NewsSection/NewsSection";
 
 const NewsGallery = () => {
   return (
-    <div>
-      <h1>News Gallery Page</h1>
-      <p>Welcome to the News Gallery page!</p>
+    <div className="news-gallery-page">
+      <Header />
+      <NewsSection />
     </div>
-  )
-}
+  );
+};
 
-export default NewsGallery
+export default NewsGallery;

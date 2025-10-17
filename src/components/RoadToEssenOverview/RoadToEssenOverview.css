@@ -1,0 +1,126 @@
+.overview-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.overview-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-family: "paytone one", serif;
+  font-weight: 400;
+  text-align: right;
+}
+
+.overview-line {
+  border-top: 1px solid #333;
+  width: 70%;
+  margin-bottom: 18px;
+  justify-self: end;
+}
+
+.overview-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.overview-card {
+  min-width: 280px;
+  color: white;
+  padding: 10px 15px;
+  position: relative;
+  transition: transform 0.3s ease;
+  height: inherit;
+}
+
+.overview-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.overview-card p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.card-1 {
+  background-color: #d1342f;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  z-index: 9;
+  width: 25%;
+}
+
+.card-2 {
+  background-color: #a0211c;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  z-index: 8;
+  width: 25%;
+}
+
+.card-3 {
+  background-color: #5b1815;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+/* Arrow between cards */
+.arrow {
+  position: absolute;
+  right: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 20;
+  font-size: 16px;
+  color: #b71c1c;
+}
+
+.overview-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .overview-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .overview-card {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .overview-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .overview-title {
+    font-size: 1.2rem;
+  }
+}
