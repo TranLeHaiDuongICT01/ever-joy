@@ -8,7 +8,7 @@ const Gallery = () => {
     { id: 1, src: gallery1 },
     { id: 2, src: "/images/gallery2.jpg" },
     { id: 3, src: "/images/gallery3.jpg" },
-    { id: 4, src: gallery1 },
+    { id: 4, src: "/images/gallery4.jpg" },
     { id: 5, src: "/images/gallery5.jpg" },
     { id: 6, src: "/images/gallery6.jpg" },
     { id: 7, src: "/images/gallery7.jpg" },
