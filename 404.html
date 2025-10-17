@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=/" />
+    <meta http-equiv="refresh" content="0; url=/ever-joy/" />
+    <script>
+      // Redirect all 404s to index.html (preserving path)
+      const pathname = window.location.pathname.replace("/ever-joy", "");
+      window.location.replace(`/ever-joy/#${pathname}`);
+    </script>
   </head>
-  <body></body>
 </html>
