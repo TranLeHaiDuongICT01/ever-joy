@@ -4,7 +4,6 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Competition from "./pages/Competition/Competition";
 import NewsGallery from "./pages/NewsGallery/NewsGallery";
-import Partner from "./pages/Partner/Partner";
 import Contact from "./pages/Contact/Contact";
 
 function App() {
@@ -14,9 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/competition" element={<Competition />} />
+          <Route path="/road-to-essen" element={<Competition />} />
           <Route path="/news-gallery" element={<NewsGallery />} />
-          <Route path="/partners" element={<Partner />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>

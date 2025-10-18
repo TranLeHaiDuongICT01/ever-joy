@@ -57,7 +57,11 @@ const Competition = () => {
       <div
         style={{ backgroundImage: `url(${competitionBanner})` }}
         className="competition-banner"
-      ></div>
+      >
+        <h1>Meet the champion of</h1>
+        <h1>Road to Essen 2025</h1>
+        <p>Congratulations JULY- Mr. Huu Thinh , winner of the Road to Essen 2025 competition.</p>
+      </div>
       <div className="year-list">
         <p>
           2025

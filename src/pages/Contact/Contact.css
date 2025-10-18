@@ -1,0 +1,19 @@
+.contact-banner {
+    width: calc(100% - 80px);
+    height: 600px;
+    background: #d9d9d9;
+    margin-top: -140px;
+    justify-self: center;
+}
+@media (max-width: 678px) {
+    .contact-banner {
+        width: calc(100% - 60px);
+        height: 450px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-banner {
+        height: 300px;
+    }
+}

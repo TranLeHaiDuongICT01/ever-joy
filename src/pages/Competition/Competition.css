@@ -5,6 +5,28 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 48px;
+  padding-top: 48px;
+}
+
+.competition-banner h1 {
+  font-family: 'anton', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0;
+  text-align: left;
+}
+
+
+.competition-banner p {
+  font-family: 'space grotesk', sans-serif;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 24px;
 }
 
 .year-list {
@@ -110,13 +132,22 @@
 
 @media (max-width: 768px) {
   .competition-banner {
-    height: 400px;
+    height: 450px;
+    padding-top: 80px;
+  }
+
+  .competition-banner h1 {
+    font-size: 32px;
   }
 }
 
 @media (max-width: 480px) {
   .competition-banner {
-    height: 300px;
+    height: 400px;
+    padding-top: 100px;
+  }
+  .competition-banner h1 {
+    font-size: 30px;
   }
   .finalists-item {
     width: calc(50% - 32px);

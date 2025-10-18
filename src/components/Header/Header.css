@@ -247,6 +247,10 @@
   .hero-content h1 {
     font-size: 1.6rem;
   }
+
+  .header {
+    margin-top: 32px;
+  }
 }
 
 .nav-link {

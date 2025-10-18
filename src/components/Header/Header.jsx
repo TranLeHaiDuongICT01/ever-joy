@@ -58,9 +58,9 @@ const Header = () => {
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
-                to="/competition"
+                to="/road-to-essen"
               >
-                Competition
+                Road to Essen
               </NavLink>
             </li>
             <li>
@@ -72,17 +72,6 @@ const Header = () => {
                 to="/news-gallery"
               >
                 News & Gallery
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                end
-                className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }
-                to="/partners"
-              >
-                Partners
               </NavLink>
             </li>
             <li>
