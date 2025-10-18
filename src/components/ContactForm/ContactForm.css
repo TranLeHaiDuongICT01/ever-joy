@@ -39,9 +39,8 @@ label {
     display: block;
 }
 
-input,
-select,
-textarea {
+.input-text,
+.input-textarea {
     width: 100%;
     padding: 12px 20px;
     border-radius: 40px;
@@ -49,12 +48,12 @@ textarea {
     border: 1px solid black;
 }
 
-textarea {
+.input-textarea {
     resize: vertical;
     height: 100px;
 }
 
-button {
+.submit-btn {
     background-color: #666;
     color: #fff;
     padding: 10px;
@@ -68,7 +67,7 @@ button {
     align-self: center;
 }
 
-button:hover {
+.submit-btn:hover {
     background-color: #555;
 }
 

@@ -66,6 +66,7 @@ const ContactForm = () => {
                         value={formData.name}
                         onChange={handleChange}
                         required
+                        className="input-text"
                     />
                 </div>
                 <div className="form-group">
@@ -78,6 +79,7 @@ const ContactForm = () => {
                         value={formData.email}
                         onChange={handleChange}
                         required
+                        className="input-text"
                     />
                 </div>
                 <div className="form-group">
@@ -89,6 +91,7 @@ const ContactForm = () => {
                         placeholder="Company"
                         value={formData.company}
                         onChange={handleChange}
+                        className="input-text"
                     />
                 </div>
                 <div className="form-group">
@@ -125,9 +128,10 @@ const ContactForm = () => {
                         value={formData.message}
                         onChange={handleChange}
                         required
+                        className="input-textarea"
                     />
                 </div>
-                <button type="submit">GỬI</button>
+                <button className="submit-btn" type="submit">GỬI</button>
             </form>
         </div>
     </div>
